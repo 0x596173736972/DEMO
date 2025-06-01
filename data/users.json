@@ -1,0 +1,44 @@
+{
+  "users": {
+    "demo_user": {
+      "email": "demo@ankhara.com",
+      "type": "premium",
+      "profile": {
+        "morphology": "triangle inversé",
+        "skin_tone": "#FFDAB9",
+        "preferred_styles": ["élégant", "casual"],
+        "size": "M"
+      },
+      "clothing_items": [
+        {
+          "id": "item_1",
+          "name": "T-shirt blanc",
+          "category": "hauts",
+          "color": "#FFFFFF",
+          "material": "coton",
+          "image_path": "images/demo_user/item_1.jpg"
+        },
+        {
+          "id": "item_2",
+          "name": "Jean bleu",
+          "category": "bas",
+          "color": "#4682B4",
+          "material": "denim",
+          "image_path": "images/demo_user/item_2.jpg"
+        },
+        {
+          "id": "item_3",
+          "name": "Sneakers blanches",
+          "category": "chaussures",
+          "color": "#FFFFFF",
+          "material": "cuir",
+          "image_path": "images/demo_user/item_3.jpg"
+        }
+      ],
+      "daily_usage": {
+        "date": "2025-01-28",
+        "recommendations_count": 2
+      }
+    }
+  }
+}
